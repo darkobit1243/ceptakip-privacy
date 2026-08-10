@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>CepTakip Gizlilik Politikası</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#f6f7fb; --card:#fff; --text:#172033; --muted:#59657a; --accent:#635bff; --border:#e1e5ee; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#0c1220; --card:#141c2c; --text:#edf2ff; --muted:#adb8ce; --accent:#9b95ff; --border:#29344a; } }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font:16px/1.7 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    main { width:min(860px,calc(100% - 32px)); margin:40px auto; padding:clamp(24px,5vw,56px); background:var(--card); border:1px solid var(--border); border-radius:22px; box-shadow:0 18px 50px rgba(0,0,0,.08); }
+    h1 { margin:0 0 4px; font-size:clamp(2rem,6vw,3.2rem); letter-spacing:-.04em; }
+    h2 { margin:2rem 0 .5rem; font-size:1.25rem; color:var(--accent); }
+    p { margin:.5rem 0; }
+    .date { color:var(--muted); margin-bottom:2rem; }
+    .contact { overflow-wrap:anywhere; font-weight:600; }
+    @media (max-width:520px) { main { width:100%; margin:0; border:0; border-radius:0; min-height:100vh; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>CepTakip</h1>
+  <p class="date">Gizlilik Politikası · Son güncelleme: 10 Ağustos 2026</p>
+
+  <h2>CepTakip Hakkında</h2>
+  <p>CepTakip, kullanıcıların fatura ve aboneliklerini kendi Android cihazlarında takip etmesine yardımcı olan yerel bir uygulamadır. Uygulama kullanıcı hesabı, sunucu veya bulut eşitleme hizmeti kullanmaz.</p>
+
+  <h2>İşlenen ve Saklanan Veriler</h2>
+  <p>CepTakip; kullanıcının uygulamaya girdiği fatura, abonelik, ödeme geçmişi, tutar, tarih, kategori, profil ve hatırlatıcı bilgilerini uygulamanın işlevlerini sunmak amacıyla cihaz içinde işler. Bu bilgilerin cihaz içinde işlenmesi, geliştirici tarafından bir sunucuda toplanması anlamına gelmez. CepTakip'in INTERNET izni yoktur ve bu verileri geliştiriciye veya başka bir sunucuya iletmez.</p>
+  <p>Uygulamada kullanıcı hesabı, reklam, analiz veya çökme raporlama sistemi bulunmaz.</p>
+
+  <h2>Fatura ve Abonelik Bilgileri</h2>
+  <p>Eklenen her fatura veya abonelik için servis/kurum adı, tutar, son ödeme tarihi, kategori ve ödeme durumu gibi bilgiler cihazda saklanır. <strong>CepTakip ödeme kartı numarası, banka hesap bilgisi veya ödeme kimlik bilgisi istemez ve saklamaz.</strong></p>
+
+  <h2>Profil Bilgileri</h2>
+  <p>Kullanıcının oluşturabileceği profiller bir hesap veya oturum sistemi değildir; yalnızca aynı cihazdaki verinin kendi içinde ayrıldığı yerel bölmelerdir. Profil avatarları, galeri veya kameraya erişilmeden uygulama içindeki sabit, yerel görsellerden seçilir — CepTakip'in galeri/kamera izni yoktur.</p>
+
+  <h2>Yerel Veri Saklama</h2>
+  <p>Fatura, abonelik, ödeme geçmişi ve uygulama tercihleri kullanıcının cihazında yerel olarak saklanır. Uygulama bu verileri bir backend veya bulut hizmetiyle eşitlemez. Android uygulama verileri silindiğinde veya uygulama kaldırıldığında, kullanıcının ayrıca dışa aktardığı dosyalar hariç yerel uygulama verileri silinir.</p>
+
+  <h2>Bildirimler</h2>
+  <p>CepTakip, yaklaşan ödemeler için cihaz üzerinde yerel hatırlatıcı göstermek amacıyla bildirim izni isteyebilir. Bu izin uzaktan bildirim göndermek, kullanıcı davranışını izlemek veya veri toplamak için kullanılmaz — hatırlatıcılar tamamen cihazda planlanır ve tetiklenir. Kullanıcı izni reddedebilir veya Android ayarlarından daha sonra değiştirebilir.</p>
+
+  <h2>Dışa Aktarma</h2>
+  <p>CSV ve PDF dışa aktarma yalnızca kullanıcı başlattığında çalışır. Seçilen veriler cihazda bir dosya olarak oluşturulur; kullanıcı bu dosyayı Android'in kaydetme veya paylaşma ekranı üzerinden istediği konuma kaydedebilir ya da istediği uygulamayla paylaşabilir. CepTakip bu dosyayı otomatik olarak herhangi bir sunucuya yüklemez.</p>
+
+  <h2>Yedekleme ve Geri Yükleme</h2>
+  <p>Yedekleme ve geri yükleme işlemleri yalnızca kullanıcı tarafından başlatılır. Oluşturulan JSON yedek dosyasının kaydedileceği konumu Android dosya seçicisi üzerinden kullanıcı belirler. CepTakip bu dosyayı geliştiricinin sunucusuna yüklemez. Uygulama, Android'in otomatik sistem yedeklemesini de kullanmaz (<code>allowBackup=false</code>) — veriler cihaz değişiminde otomatik olarak buluta yedeklenmez.</p>
+
+  <h2>Premium Özelliği</h2>
+  <p>CepTakip, sınırsız kayıt, gelişmiş raporlar ve dışa aktarma gibi bazı özellikleri Premium üyelik altında sunabilir. Bu politikanın yayımlandığı sürümde Premium durumu gerçek bir ödeme sistemine henüz bağlı olmayabilir; gerçek bir satın alma mekanizması etkinleştirildiğinde bu politika ayrıca güncellenecektir. Premium durumu dışında herhangi bir ek kişisel veri toplanmaz.</p>
+
+  <h2>Uygulama İzinleri</h2>
+  <p>CepTakip; bildirim gösterme (<code>POST_NOTIFICATIONS</code>), cihaz yeniden başlatıldığında hatırlatıcıları geri yükleme (<code>RECEIVE_BOOT_COMPLETED</code>) ve hatırlatıcıları zamanında tetikleme (<code>SCHEDULE_EXACT_ALARM</code>) izinlerini ister. Uygulamanın internete erişim izni (<code>INTERNET</code>) yoktur; galeri, kamera, konum veya kişi rehberine erişim istemez.</p>
+
+  <h2>Üçüncü Taraf Hizmetler</h2>
+  <p>CepTakip; reklam, analiz, çökme raporlama, kullanıcı hesabı, backend veya bulut eşitleme hizmeti kullanmaz. Uygulama içindeki servis ve kurum adları ile logolar (ör. Netflix, Spotify, Türk Telekom), kullanıcının kendi aboneliklerini tanımlamasına yardımcı olmak amacıyla gösterilir; bu servislerle veri bağlantısı kurulmaz ve ilgili marka sahipleriyle bir iş ortaklığı ima edilmez.</p>
+
+  <h2>Veri Paylaşımı</h2>
+  <p>CepTakip, kullanıcı verilerini geliştiriciyle veya üçüncü taraflarla paylaşmaz. Kullanıcının Android paylaşım veya dosya araçlarıyla kendi isteğiyle dışa aktardığı dosyalar bu kapsamın dışındadır.</p>
+
+  <h2>Veri Silme</h2>
+  <p>Kullanıcı kayıtlarını uygulama içinden silebilir. Tüm yerel veriler Android uygulama ayarlarından uygulama verileri temizlenerek veya uygulama kaldırılarak silinebilir. CepTakip sunucuda veri tutmadığından geliştirici tarafında ayrıca silinecek bir hesap ya da sunucu kaydı bulunmaz.</p>
+
+  <h2>Çocukların Gizliliği</h2>
+  <p>CepTakip çocuklardan bilerek kişisel veri toplamaz ve çocuklara yönelik bir hizmet olarak tasarlanmamıştır. Uygulama herhangi bir kullanıcı verisini geliştiriciye iletmez.</p>
+
+  <h2>Politika Değişiklikleri</h2>
+  <p>Bu politika, CepTakip'in gerçek veri işleme davranışı değişirse güncellenebilir. Güncel sürümün tarihi bu sayfanın başında belirtilir.</p>
+
+  <h2>İletişim</h2>
+  <p class="contact">Gizlilikle ilgili sorular için: <a href="mailto:efetalhamutlu@gmail.com">efetalhamutlu@gmail.com</a></p>
+</main>
+</body>
+</html>
